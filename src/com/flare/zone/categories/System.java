@@ -32,6 +32,8 @@ import androidx.preference.PreferenceGroup;
 import androidx.preference.PreferenceScreen;
 import androidx.preference.Preference.OnPreferenceChangeListener;
 
+import com.android.internal.util.flare.SystemRestartUtils;
+
 import com.android.internal.logging.nano.MetricsProto;
 
 import com.android.settings.R;
@@ -109,6 +111,9 @@ public class System extends SettingsPreferenceFragment implements
             } catch (Exception e) {
                 Log.e(TAG, "Error reading JSON or setting properties", e);
             }
+            mHandler.postDelayed(() -> {
+                SystemRestartUtils.showSystemRestartDialog(getContext());
+            }, 1250);
         }
     }
 
