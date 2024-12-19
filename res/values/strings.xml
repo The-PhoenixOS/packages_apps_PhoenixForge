@@ -110,4 +110,7 @@
     <!-- Ignore window secure -->
     <string name="ignore_window_secure_title">Ignore window secure flags</string>
     <string name="ignore_window_secure_summary">Allows screenshots and screen recordings for all apps, including those usually blacked out, but may risk privacy. Restart apps to apply changes.</string>
+
+    <!-- Back haptic feedback -->
+    <string name="back_gesture_haptic_title">Back haptic feedback</string>
 </resources>
