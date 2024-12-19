@@ -43,7 +43,14 @@
     <string name="themes_category">Themes</string>
     <string name="build_tweaks_summary_title">Reborn from ashes of Project Blaze</string>
     <string name="listview">ListView</string>
-    <string name="general_category"> General settings</string>
+    <string name="general_category">General settings</string>
+    <string name="music_category">Music settings</string>
+    <string name="development_category">Development settings</string>
+    <string name="statusbar_category">Statusbar settings</string>
+    <string name="network_category">Network settings</string>
+    <string name="ls_category">Lockscreen settings</string>
+    <string name="icons_category">Icons settings</string>
+    <string name="privacy_category">Privacy settings</string>
 
     <!-- App info dialog -->
     <string name="flarezone_dialog_title">Help us help you!</string>
