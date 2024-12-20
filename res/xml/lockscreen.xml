@@ -4,6 +4,16 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+    <PreferenceCategory
+        android:title="@string/ls_category">
+
+	    <com.flare.zone.preferences.SystemSettingListPreference
+            android:key="screen_off_animation"
+            android:title="@string/screen_off_animation_title"
+            android:entries="@array/screen_off_animation_entries"
+            android:entryValues="@array/screen_off_animation_values"
+            android:summary="%s"
+            android:defaultValue="0" />
+    </PreferenceCategory>
 
 </PreferenceScreen>
-
