@@ -340,4 +340,18 @@
     <!-- Google Play Integrity Spoof -->
     <string name="pi_spoof_title">Google Play Integrity spoof</string>
     <string name="pi_spoof_summary">Spoof your device as different model for Google Play Integrity</string>
+
+    <!-- QS tiles layout  -->
+    <string name="qs_tile_layout_title">QS tiles layout</string>
+    <string name="qs_tile_layout_summary">Customize tiles layout in QS panel</string>
+    <string name="qs_tile_label_size_title">Label text size</string>
+    <string name="qs_layout_category_title">Tiles layout</string>
+    <string name="qs_tile_label_hide_title">Hide label</string>
+    <string name="qs_tile_label_hide_summary">Only show icon in tile</string>
+    <string name="qs_tile_vertical_layout_title">Vertical layout</string>
+    <string name="qs_tile_vertical_layout_summary">Show label below icon instead next to icon</string>
+    <string name="qs_columns_portrait_title">Columns (portrait)</string>
+    <string name="qs_columns_landscape_title">Columns (landscape)</string>
+    <string name="quick_settings_qqs_rows_portrait_title">Quick QS Rows (portrait)</string>
+    <string name="quick_settings_qqs_rows_landscape_title">Quick QS Rows (landscape)</string>
 </resources>
